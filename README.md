@@ -1,0 +1,42 @@
+{
+  "name": "Anthropic Türkçe Öğrenme",
+  "short_name": "Anthropic TR",
+  "description": "Anthropic Skilljar kurslarının tam Türkçe rehberi — 15 kurs, 253 ders, 223 quiz sorusu. Offline çalışır.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#B8860B",
+  "background_color": "#FAF7F0",
+  "lang": "tr",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "books"],
+  "icons": [
+    { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
+    { "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "icons/icon-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "icons/icon-144.png", "sizes": "144x144", "type": "image/png" },
+    { "src": "icons/icon-152.png", "sizes": "152x152", "type": "image/png" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-384.png", "sizes": "384x384", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quiz Modu",
+      "short_name": "Quiz",
+      "description": "Hızlıca bir kurs için quiz başlat",
+      "url": "./?action=quiz",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kurslar",
+      "short_name": "Kurslar",
+      "description": "Tüm kurslara göz at",
+      "url": "./?action=courses",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
