@@ -1,42 +1,33 @@
-{
-  "name": "Anthropic Türkçe Öğrenme",
-  "short_name": "Anthropic TR",
-  "description": "Anthropic Skilljar kurslarının tam Türkçe rehberi — 15 kurs, 253 ders, 223 quiz sorusu. Offline çalışır.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "theme_color": "#B8860B",
-  "background_color": "#FAF7F0",
-  "lang": "tr",
-  "dir": "ltr",
-  "categories": ["education", "productivity", "books"],
-  "icons": [
-    { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
-    { "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" },
-    { "src": "icons/icon-128.png", "sizes": "128x128", "type": "image/png" },
-    { "src": "icons/icon-144.png", "sizes": "144x144", "type": "image/png" },
-    { "src": "icons/icon-152.png", "sizes": "152x152", "type": "image/png" },
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-384.png", "sizes": "384x384", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ],
-  "shortcuts": [
-    {
-      "name": "Quiz Modu",
-      "short_name": "Quiz",
-      "description": "Hızlıca bir kurs için quiz başlat",
-      "url": "./?action=quiz",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Kurslar",
-      "short_name": "Kurslar",
-      "description": "Tüm kurslara göz at",
-      "url": "./?action=courses",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
-    }
-  ]
-}
+# Anthropic Türkçe Öğrenme (PWA)
+
+Anthropic Skilljar kurslarının tam Türkçe rehberi — 15 kurs, 253 ders, 223 quiz sorusu. **Offline çalışır.**
+
+## 🚀 Nasıl Kullanılır?
+
+### PC (Chrome / Edge):
+1. Tarayıcıda şu adresi aç: **https://tanergurbuz369.github.io/anthropic-tr/**
+2. 2. Adres çubuğunun sağındaki **"Yükle" / "Install"** simgesine tıkla
+   3. 3. Uygulama masaüstüne kurulur, tek tıkla açılır
+     
+      4. ### Cep Telefonu (Android / iOS):
+      5. 1. Tarayıcıda (Chrome/Safari) şu adresi aç: **https://tanergurbuz369.github.io/anthropic-tr/**
+         2. 2. **Menü → "Ana ekrana ekle"** seç
+            3. 3. Uygulama ikon olarak ana ekrana eklenir, app gibi çalışır
+              
+               4. ### QR Kod ile Paylaş:
+               5. Arkadaşlarınla paylaşmak için QR kod:
+              
+               6. ![QR Kod](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://tanergurbuz369.github.io/anthropic-tr/)
+              
+               7. Bu QR kodu kameradan okutup doğrudan uygulamaya girebilirler.
+              
+               8. ## 📱 Özellikler
+               9. - 15 Anthropic kursunun tam Türkçe içeriği
+                  - - 253 ders, 223 quiz sorusu
+                    - - Offline (internetsiz) çalışır
+                      - - PC ve mobil uyumlu PWA (Progressive Web App)
+                        - - Kurulum gerektirmez — tarayıcıdan çalışır
+                         
+                          - ## 🔗 Canlı Link
+                          - https://tanergurbuz369.github.io/anthropic-tr/
+                          - 
